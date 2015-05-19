@@ -10,4 +10,6 @@ RUN /build/prepare.sh && \
 
 VOLUME ["/etc/syslog-ng", "/var/log/remote"]
 
+EXPOSE 601 514
+
 CMD ["/sbin/my_init"]

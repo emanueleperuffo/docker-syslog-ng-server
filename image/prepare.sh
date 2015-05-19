@@ -15,3 +15,5 @@ apt-get update
 
 ## Upgrade all packages.
 apt-get dist-upgrade -y --no-install-recommends
+
+chmod +x /build/*.sh
